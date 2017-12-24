@@ -1,0 +1,93 @@
+$navbar-default-bg: #000000;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+//Pagina inicial
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  :hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: asset-url('home_wallpaper.jpg');
+  background-size: cover;
+  height: 40em;
+  h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 0.001em;
+    margin-bottom: 0.5em;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
+}
+
+.btn-xlarge{
+  font-size: 1.7em;
+}
+
+//FOOTER
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1.5em;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  margin-bottom: 2em;
+}
+
+.footer-links{
+  display: inline-block;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.footer a:hover {
+  color: #222;
+}
+
+//NEW ARTICLE PAGE
+
+.return-to-articles{
+  margin-top: 5em;
+}
+
+.button-new-article{
+  margin-top: 0.2em;
+}
+
+//Actions para os articles
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 1em;
+}
+
+.description{
+  margin-top: 0;
+}
+
+//Index
+.article-title{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding: 1em;
+  padding-bottom: 1em;
+}
