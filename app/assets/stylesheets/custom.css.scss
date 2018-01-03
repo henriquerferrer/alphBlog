@@ -81,6 +81,12 @@ $navbar-default-bg: #000000;
   margin-top: 0;
 }
 
+//article Details like username and crated at and updated at
+.article-meta-details{
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
 //Index
 .article-title{
   font-weight: bold;
